@@ -23,3 +23,5 @@ export const MagnificPopup = {
         }
     }
 }
+
+export default MagnificPopup;

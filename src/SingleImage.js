@@ -31,3 +31,5 @@ SingleImage.propTypes = {
 	children: PropTypes.element.isRequired,
 	title: PropTypes.string
 }
+
+export default SingleImage;

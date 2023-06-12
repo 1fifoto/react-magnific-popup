@@ -10,7 +10,7 @@ export class LightBoxGallery extends Component {
 
     componentDidMount() {
         this._jquery(document).ready(() => {
-			this._jquery(`.${this.props.className}`).magnificPopup(this.props.config);
+			    this._jquery(`.${this.props.className}`).magnificPopup(this.props.config);
 		});
     }
 
@@ -43,3 +43,5 @@ GalleryItem.propTypes = {
     title: PropTypes.string,
     children: PropTypes.element.isRequired
 }
+
+export default LightBoxGallery;
